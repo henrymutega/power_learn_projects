@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" style="text-align: center;">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+        <label for="dateOfbirt">Date of Birth</label>
+        <input type="text" id="dateOfbirt" name="dateOfbirt" placeholder="Your Date of Birth" required><br>
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="notSay" name="gender" value="notSay">
+            <label for="notSay">Prefer Not to Say</label>
+        </fieldset>
+        <label for="Address">Address</label>
+        <input type="number" id="address" name="address" placeholder="Your Address" required><br>
+        <label for="name">Telephone</label>
+        <input type="number" id="telephone" name="telephone" placeholder="Your Telephone No." required><br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+
+        <button type="submit">Submit</button>
+        <button type="submit">Cancel</button>
+    </form>
+</body>
+</html>
